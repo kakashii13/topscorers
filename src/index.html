@@ -18,13 +18,24 @@
     <header>
       <h1>TOP SCORERS OF EUROPE</h1>
     </header>
-    <main class="container">
-      <div class="input-choose">
-        <input type="text" placeholder="choose league" />
+    <main class="main-container">
+      <div class="select-container">
+        <p>Choose a league: </p>
+        <select name="" id="">
+          <option value="england">Premier</option>
+          <option value="spain">Laliga</option>
+          <option value="italy">Serie A</option>
+        </select>
       </div>
-      <div>
-        <div></div>
-        <div class="list-container"></div>
+      <div class="scorer-container">
+        <h2 id="title-league"></h2>
+        <div class="list-container">
+          <ul id="list-photo"></ul>
+          <ul id="list-name">
+          </ul>
+          <ul id="list-goals">
+          </ul>
+        </div>
       </div>
     </main>
     <script
