@@ -11,7 +11,12 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -20,21 +25,36 @@
     </header>
     <main class="main-container">
       <div class="select-container">
-        <p>Choose a league: </p>
+        <p>Choose a league:</p>
         <select name="" id="">
           <option value="england">Premier</option>
           <option value="spain">Laliga</option>
           <option value="italy">Serie A</option>
         </select>
       </div>
+      <!--list of scorers-->
       <div class="scorer-container">
         <h2 id="title-league"></h2>
         <div class="list-container">
-          <ul id="list-photo"></ul>
-          <ul id="list-name">
-          </ul>
-          <ul id="list-goals">
-          </ul>
+          <div class="stats">
+            <ul id="rank">
+              <p>Rank</p>
+              <li>1.</li>
+              <li>2.</li>
+              <li>3.</li>
+              <li>4.</li>
+              <li>5.</li>
+            </ul>
+            <ul id="list-name">
+              <p>Player</p>
+            </ul>
+            <ul id="list-club">
+              <p>Club</p>
+            </ul>
+            <ul id="list-goals">
+              <p>Goals</p>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
